@@ -60,3 +60,6 @@ area(5,4);
 
 let data = 1;
 console.log(data);
+
+const a = 2;
+console.log(a);

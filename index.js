@@ -51,24 +51,45 @@
 // add(3,4);
 // add(5,6);
 
-function area(a,b){
-    return a * b;
-}
+// function area(a,b){
+//     return a * b;
+// }
 
-area(3,4);
-area(5,4); 
+// area(3,4);
+// area(5,4); 
 
-let data = 1;
-console.log(data);
+// let data = 1;
+// console.log(data);
 
-const a = 2;
-console.log(a);
+// const a = 2;
+// console.log(a);
 
-const b = 3;
+// const b = 3;
 
-console.log(b);
+// console.log(b);
 
-const c =4;
-console.log(c);
+// const c =4;
+// console.log(c);
 
 console.log("hello world");
+
+const pi = 3.14;
+console.log(pi);
+
+let a = parseInt(prompt("Enter the first number: ")), 
+b = parseInt(prompt("Enter the second number: ")) ;
+let z = (a + b);
+
+ if(a==b){
+console.log("The tripled sum is " + 3*z);
+ }
+ else{
+   
+    console.log("The sum is " + z);
+ }
+
+ 
+
+ 
+
+

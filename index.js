@@ -88,7 +88,20 @@ console.log("The tripled sum is " + 3*z);
     console.log("The sum is " + z);
  }
 
- 
+ const c = Number(prompt('Enter a number'));
+if(c%3 == 0 && c%7 == 0){
+    console.log('It is a multiple of both 3 and 7');
+}
+else if(c%3 == 0){
+    console.log('It is a multiple of 3');
+}
+else if(c%7 == 0){
+    console.log('It is a multiple of 7');
+}
+else{
+    console.log('It is not a multiple of 3 or 7');
+}
+
 
  
 

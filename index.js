@@ -104,6 +104,15 @@ else{
 
 console.log(Date());
 
+const x = Number(prompt('Enter a number'));
+const y = Number(prompt('Enter a number'));
+const mnd = (a, b) =>
+{
+    console.log(a*b);
+    console.log(a/b);
+}
+mnd(x, y);
+
 
  
 

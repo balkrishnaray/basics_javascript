@@ -164,17 +164,30 @@
 //  console.log(e);
 // console.log(arr.sort());
 
-const cars = ["Saab","Volvo","ferari","mercedes",{name: "toyota"}];
-const myfunction = (data) => {
-    console.log(data);
+// const cars = ["Saab","Volvo","ferari","mercedes",{name: "toyota"}];
+// const myfunction = (data) => {
+//     console.log(data);
+// }
+// //ES5 from original data
+// cars.forEach(myfunction);
+
+// //ES6 make a copy
+// cars.map(d=> console.log(d));
+
+//user model
+const user = {
+    firstname: "John",
+    lastname: "Doe",
+    email: "john@gmail.com",
+    phone: "9810294812",
+    password: "13334"
+
 }
-//ES5 from original data
-cars.forEach(myfunction);
+//user list 
+const { password,phone, ...rest} = user;
+console.log({rest});
 
-//ES6 make a copy
-cars.map(d=> console.log(d));
-
-
+const user1 = ["john","doe","john@gmail.com","98123431"];
 
  
 

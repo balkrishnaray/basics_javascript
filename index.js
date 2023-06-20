@@ -175,19 +175,23 @@
 // cars.map(d=> console.log(d));
 
 //user model
-const user = {
-    firstname: "John",
-    lastname: "Doe",
-    email: "john@gmail.com",
-    phone: "9810294812",
-    password: "13334"
+// const user = {
+//     firstname: "John",
+//     lastname: "Doe",
+//     email: "john@gmail.com",
+//     phone: "9810294812",
+//     password: "13334"
 
-}
-//user list 
-const { password,phone, ...rest} = user;
-console.log({rest});
+// }
+// //user list 
+// const { password,phone, ...rest} = user;
+// console.log({rest});
 
 const user1 = ["john","doe","john@gmail.com","98123431"];
+const [first,...other] =user1;
+console.log(other);
+
+
 
  
 

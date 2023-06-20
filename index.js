@@ -145,16 +145,23 @@
 // area(1,2);
 //  console.log(d);
 
- const person ={
-    firstname:"balkrishna",
-    lastname:"Ray",
-    fullname: ()=>{
-        return `${person.firstname} ${person.lastname}`;
-    },
- };
- const c = person.firstname;
- const a = person.fullname();
- console.log(c,a);
+//  const person ={
+//     firstname:"balkrishna",
+//     lastname:"Ray",
+//     fullname: ()=>{
+//         return `${person.firstname} ${person.lastname}`;
+//     },
+//  };
+//  const c = person.firstname;
+//  const a = person.fullname();
+//  console.log(c,a);
+
+ //arrays
+ const arr = ["Saab","Volvo","BMW",{name: "toyota"}];
+ const b = arr[0];
+ console.log(b);
+ const e = arr[arr.length-1];
+ console.log(e);
 
 
  

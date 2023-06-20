@@ -157,11 +157,23 @@
 //  console.log(c,a);
 
  //arrays
- const arr = ["Saab","Volvo","BMW",{name: "toyota"}];
- const b = arr[0];
- console.log(b);
- const e = arr[arr.length-1];
- console.log(e);
+//  const arr = ["Saab","Volvo","BMW",{name: "toyota"}];
+//  const b = arr[0];
+//  console.log(b);
+//  const e = arr[arr.length-1];
+//  console.log(e);
+// console.log(arr.sort());
+
+const cars = ["Saab","Volvo","ferari","mercedes",{name: "toyota"}];
+const myfunction = (data) => {
+    console.log(data);
+}
+//ES5 from original data
+cars.forEach(myfunction);
+
+//ES6 make a copy
+cars.map(d=> console.log(d));
+
 
 
  

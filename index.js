@@ -187,16 +187,22 @@
 // const { password,phone, ...rest} = user;
 // console.log({rest});
 
-const user1 = ["john","doe","john@gmail.com","98123431"];
-const [first,...change] =user1;
-console.log(change.toString());
+// const user1 = ["john","doe","john@gmail.com","98123431"];
+// const [first,...change] =user1;
+// console.log(change.toString());
 
-const myfunction = (data) => {
-    console.log("hi there ",data);
-}
-user1.map(myfunction).toString();
+// const myfunction = (data) => {
+//     console.log("hi there ",data);
+// }
+// user1.map(myfunction).toString();
 
+const myname = (salutation,name) => {
+   if( salutation ==="")
+    salutation || "Mr";
 
+    console.log(`${salutation} ${name}`);
+};
+myname("","BALA");
 
 
 

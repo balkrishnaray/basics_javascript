@@ -188,8 +188,15 @@
 // console.log({rest});
 
 const user1 = ["john","doe","john@gmail.com","98123431"];
-const [first,...other] =user1;
-console.log(other);
+const [first,...change] =user1;
+console.log(change.toString());
+
+const myfunction = (data) => {
+    console.log("hi there ",data);
+}
+user1.map(myfunction).toString();
+
+
 
 
 
